@@ -173,3 +173,22 @@ All six scripts, run in this order within a single Python/Jupyter session (since
 later scripts depend on variables, functions, and models defined earlier), plus
 the combined notebook, make up the reproducible project checked into this
 repository.
+
+### Prompt 8 — Combine everything into a single Problem 1 notebook
+
+**Goal:** Package all generated code into one Jupyter notebook (rather than
+separate repo files), with a homework-style title cell (name, course, "Homework
+03, Problem 1"), the exact prompt preceding each prompt's code, meaningful
+Markdown explanations, the training-accuracy plot, and a chronological dialog
+summary — saved as `e89_Kanny_Samantha_HW03_Problem1.ipynb` and provided for
+download.
+
+**Generated:** `e89_Kanny_Samantha_HW03_Problem1.ipynb`, built from the same
+underlying cells as `e89_Kanny_Samantha_HW03_Problem01.ipynb` (Prompt 7), with
+a new title cell, a table-of-contents cell, and this summary extended to cover
+Prompts 7 and 8.
+
+**Verification:** Since the code cells are identical to those already
+validated for Prompt 7 (same source cells from the working notebook, including
+the full end-to-end background run), no code logic changed — only the
+notebook's framing and metadata.
